@@ -61,7 +61,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **Managing Tasks**
+- **Managing Books**
 - **Routing on SPA**
 
 
@@ -91,7 +91,7 @@
 
 Clone this repository to your desired folder:
 
-> https://github.com/krisbobo/js-capstone.git
+> https://github.com/akos29/bookStore.git
 ### Install
 
 Install this project with:
