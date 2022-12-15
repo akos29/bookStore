@@ -150,7 +150,7 @@ npm run deploy
 
 👤 **Kibrewossen Yitbarek**
 
-- GitHub: [akos](https://github.com/akos29)
+- GitHub: [akos29](https://github.com/akos29)
 - Twitter: [kbson49](https://twitter.com/Kbson49)
 - LinkedIn: [Kibrewossen](https://www.linkedin.com/in/kibrewossen-yitbarek-bb587a18/)
 
