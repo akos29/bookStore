@@ -1,10 +1,13 @@
 import React from 'react';
+import AddBook from './AddBook';
+import BooksList from './BooksList';
 
 export default function Books() {
   return (
     <div>
-      <h1>Book Store</h1>
-      <p>Welcome ...</p>
+      <BooksList />
+      <hr />
+      <AddBook />
     </div>
   );
 }

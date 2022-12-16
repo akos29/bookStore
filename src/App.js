@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="container">
+      <div>
         <Routes>
           <Route
             exact
@@ -18,9 +18,11 @@ function App() {
           />
           <Route
             path="/categories"
-            element={
-              <Categories />
-          }
+            element={(
+              <div className="container">
+                <Categories />
+              </div>
+            )}
           />
         </Routes>
       </div>

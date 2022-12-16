@@ -28,22 +28,25 @@ body {
 }
 
 .active {
-  background-color: var(--bg-color);
+  background-color: var(--blue);
   padding: 1em;
   border-radius: 10px;
 }
 
 h1 {
-  color: var(--gold-200);
+  color: var(--black);
   font-size: 2.7em;
   font-weight: 700;
 }
 
 button {
-  background-color: var(--gold-200);
-  color: var(--black);
-  font-size: 1.17em;
-  padding: 0.5em 1em;
+  background-color: var(--blue-100);
+  color: var(--bg-border);
+  text-transform: uppercase;
+  font-size: 0.97em;
+  width: fit-content;
+  padding: 0.5em 1.7em;
+  border-radius: 3px;
 }
 
 .header h1 {
@@ -53,8 +56,8 @@ button {
 }
 
 .header span {
-  background-color: var(--gold-200);
-  color: var(--black);
+  background-color: var(--blue-100);
+  color: var(--secondary);
   padding: 0.5em;
   margin-left: 0.25em;
 }
@@ -67,19 +70,28 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--black);
+  background: var(--secondary);
   padding: 1em 7%;
-  box-shadow: var(--gold-200) 4px 4px, var(--gold) 9px 7px;
+  box-shadow: var(--blue-100) 4px 4px, var(--blue) 9px 7px;
 }
 
 .container {
-  margin: 2em 7%;
+  margin: 2em 2%;
   background-color: #e0e0e0;
-  padding: 1em;
-  min-height: 40vh;
+}
+
+hr {
+  color: var(--bg-border);
+  background-color: var(--bg-border);
+  height: 2px;
 }
 
 @media (min-width: 728px) {
+  .container {
+    margin: 2% 7%;
+    background-color: #e0e0e0;
+  }
+
   .header nav {
     display: flex;
   }
@@ -97,7 +109,7 @@ button {
 
   .header nav ul li a {
     text-decoration: none;
-    color: var(--gold-200);
+    color: var(--bg-border);
     font-size: 1.1em;
     font-weight: 600;
   }
