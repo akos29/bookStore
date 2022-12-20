@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/krisbobo/readme-template/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://safari-ict.com/wp-content/uploads/elementor/thumbs/safari-logo-jpeg-e1586270537522-p2m92e5sbdvatp5jaesli97zyw4841isg30ay92w58.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
@@ -12,7 +12,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Micro Cinema\] ](#-micro-cinema-)
+- [📖 Book Store with React](#-about-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -61,8 +61,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **Managing Books**
-- **Routing on SPA**
+- **Display, Add and Remove Books**
+- **Connect to an API**
+- **Use Redux in React Components **
 
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
@@ -73,7 +74,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://akos29.github.io/todo)
+- [Live Demo Link](https://akos29.github.io/bookStore/)
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
