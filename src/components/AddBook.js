@@ -8,7 +8,7 @@ export default function AddBook() {
       <form>
         <input type="text" placeholder="Insert title ..." />
         <select name="category">
-          <option disabled selected className={style.myDisable}>Category</option>
+          <option disabled defaultValue="Cat" className={style.myDisable}>Category</option>
           <option value="Action">Action</option>
           <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
