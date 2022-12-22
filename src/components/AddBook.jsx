@@ -30,6 +30,8 @@ export default function AddBook() {
           category,
         }),
       );
+      setAuthor('');
+      setTitle('');
     }
   };
   return (
@@ -45,7 +47,7 @@ export default function AddBook() {
           <option value="Science Fiction">Science Fiction</option>
           <option value="Economy">Economy</option>
         </select> */}
-        <button type="submit">Add Book</button>
+        <button type="submit" className="btn">Add Book</button>
       </form>
     </div>
   );

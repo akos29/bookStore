@@ -16,7 +16,7 @@ export default function BooksList() {
         books.map((book) => (
           // eslint-disable-next-line react/no-unknown-property
           <div key={book.item_id} className="container">
-            <DisplayBook book={book} />
+            <DisplayBook book={book} progress={Math.floor(Math.random() * 100)} />
           </div>
         ))
     }

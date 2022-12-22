@@ -5,7 +5,13 @@
 form {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.6em;
   margin-top: 2rem;
+}
+
+form button {
+  width: 45%;
 }
 
 input {
@@ -13,7 +19,7 @@ input {
   font-size: 1rem;
   margin-right: 0.47rem;
   width: 85%;
-  color: #fff;
+  color: #000;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px;
 }
 
@@ -28,4 +34,15 @@ select {
 ::placeholder,
 option .myDisabled {
   color: #888;
+}
+
+@media (min-width: 720px) {
+  form {
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+
+  form button {
+    width: 45%;
+  }
 }
