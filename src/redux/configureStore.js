@@ -9,6 +9,7 @@ const rootReducer = combineReducers({
   books: booksReducer,
   categories: categoriesReducer,
   activeLink: activeLinkReducer,
+
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk));

@@ -1,15 +1,15 @@
 /* eslint-disable */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import style from './DisplayBook.module.css';
 import { removeBook } from '../redux/books/books';
 
-const DisplayBook = ({book}) => { 
+const DisplayBook = ({book,progress}) => { 
   const dispatch = useDispatch();
   const delBook = (id) =>{
-    console.log(id)
     dispatch(removeBook(Number(id)))
   }
+
 return (
   <div className={style.book}>  
     <div className={style.aboutBook}>
@@ -24,9 +24,9 @@ return (
     </div>
 
     <div className={style.progress}>
-      <progress value="50" max="100"></progress>
+      <progress value={progress} max="100"></progress>
       <div className={style.progressDetail}>
-        <h4> 50%</h4>
+        <h4> {progress}%</h4>
         <span>Completed</span>
       </div>
     </div>
@@ -41,10 +41,4 @@ return (
 
 };
 
-const mapStateToProps = (state) => {
-  // console.log(state);
-  return {posts: state.books}
-}
-
-// export default connect(mapStateToProps,{ fetchPosts })(DisplayBook);
 export default DisplayBook;

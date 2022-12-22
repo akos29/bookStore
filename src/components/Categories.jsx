@@ -8,6 +8,7 @@ export default function Categories() {
   const handleClick = () => {
     dispatch(checkStatus());
   };
+
   return (
     <div className="category-wrapper">
       <h1>Categories</h1>
