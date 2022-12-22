@@ -41,7 +41,7 @@ return (
       <div className="book-update">
         <p className="current-chap">CURRENT CHAPTER</p>
         <p className="chap-num">Chapter 17</p>
-        <button type="button">UPDATE PROGRESS</button>
+        <button className="btn" type="button">UPDATE PROGRESS</button>
       </div>
     {/* <div className={style.currentChapter}>
       <p>Current Chapter</p>
