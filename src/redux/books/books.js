@@ -1,4 +1,4 @@
-import bookStoreAPI, { baseURL } from '../../../apis/bookStoreAPI';
+import bookStoreAPI, { baseURL } from '../../apis/bookStoreAPI';
 // Actions
 const CREATE = 'bookstore/books/CREATE';
 const REMOVE = 'bookstore/books/REMOVE';

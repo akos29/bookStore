@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import DisplayBook from './DisplayBook';
-import { fetchBooks } from './redux/books/books';
+import { fetchBooks } from '../redux/books/books';
 
 export default function BooksList() {
   const dispatch = useDispatch();

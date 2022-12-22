@@ -10,11 +10,11 @@
 }
 
 :root {
-  --primary: #ffb606;
+  --primary: #1b3b80;
   --primary-bg: #1c1c1c;
   --secondary: #e0e0e0;
-  --bg-color: #858693;
-  --bg-border: #9c9c9c;
+  --bg-color: #c8c8d0;
+  --bg-border: #c8c3c3d1;
   --text: black;
   --black: #191919;
   --gold: #fed600;
@@ -28,7 +28,8 @@ body {
 }
 
 .active {
-  background-color: var(--blue);
+  background-color: var(--primary);
+  color: white;
   padding: 1em;
   border-radius: 10px;
 }
@@ -123,8 +124,12 @@ hr {
 
   .header nav ul li a {
     text-decoration: none;
-    color: var(--bg-border);
     font-size: 1.1em;
     font-weight: 600;
+  }
+
+  .active {
+    color: var(--secondary);
+    background-color: var(--primary);
   }
 }
