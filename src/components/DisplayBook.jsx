@@ -2,7 +2,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import style from './DisplayBook.module.css';
-import { removeBook } from './redux/books/books';
+import { removeBook } from '../redux/books/books';
 
 const DisplayBook = ({book}) => { 
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { activeStatus } from './redux/navlink/navlink';
+import { activeStatus } from '../redux/navlink/navlink';
 
 function Navbar() {
   const dispatch = useDispatch();
