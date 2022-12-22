@@ -23,8 +23,8 @@
 body {
   background-color: var(--bg-color);
   box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
-  margin:2%;
-  padding-bottom:8%;
+  margin: 2%;
+  padding-bottom: 8%;
 }
 
 .active {
@@ -76,8 +76,7 @@ button {
   background: var(--secondary);
   padding: 1em 7%;
   border: 3px solid var(--bg-border);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 .container {
@@ -85,7 +84,7 @@ button {
   background-color: #fff;
   border-radius: 5px;
   border: 2px solid var(--bg-border);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 .wrapper {

@@ -62,7 +62,6 @@
   font-weight: 400;
 }
 
-
 @media (min-width: 720px) {
   .book {
     flex-direction: row;
@@ -89,7 +88,6 @@
     padding-right: 1rem;
     background-color: #fff;
     text-transform: capitalize;
-    
   }
 
   .progress {
