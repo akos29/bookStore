@@ -25,6 +25,7 @@
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features](#future-features)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -35,17 +36,16 @@
 
 # 📖 Book Store with React<a name="about-project"></a>
 
-> The Book Store App is designed to help users manage books. The app is designed primarily using React.The application is carried out as part of a test to see how well the React tutorial has been understood.
+> The Book Store App is designed to help users manage books. The app is designed primarily using React and Redux.The application is carried out as part of a test to see how well the React tutorial has been understood.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React
+- Redux
 - JSX
-- ES6
-- Webpack
 <!-- Features -->
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> In this project mainly used react React with redux
 
 <details>
   <summary>Client</summary>
@@ -59,11 +59,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> The major features of this app is as follows:
 
 - **Display, Add and Remove Books**
-- **Connect to an API**
-- **Use Redux in React Components **
+- **Use API to Manage Users' Book**
+- **Use Redux for State Management**
 
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
@@ -156,6 +156,20 @@ npm run deploy
 - LinkedIn: [Kibrewossen](https://www.linkedin.com/in/kibrewossen-yitbarek-bb587a18/)
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add Category Section]**
+- [ ] **[Add Update Status Features]**
+- [ ] **[Add User Account Features]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 

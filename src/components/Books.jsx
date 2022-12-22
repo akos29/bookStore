@@ -4,7 +4,7 @@ import BooksList from './BooksList';
 
 export default function Books() {
   return (
-    <div>
+    <div className="wrapper">
       <BooksList key={Math.random} />
       <hr />
       <AddBook />

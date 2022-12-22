@@ -34,7 +34,7 @@ export default function AddBook() {
   };
   return (
     <div className={style.addContainer}>
-      <h2>Add New Book</h2>
+      <h2 className="disabled">Add New Book</h2>
       <form onSubmit={formSubmit}>
         <input type="text" id="title" placeholder="Insert title ..." value={title} onChange={changeTitle} />
         <input type="text" id="author" placeholder="Author" value={author} onChange={changeAuthor} />

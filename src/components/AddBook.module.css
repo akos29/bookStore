@@ -2,6 +2,7 @@
   margin: 2% 7%;
 }
 
+
 form {
   display: flex;
   justify-content: center;
@@ -11,7 +12,8 @@ input {
   padding: 0.5rem 0.5rem;
   font-size: 1rem;
   margin-right: 0.27rem;
-  width: 95%;
+  width: 85%;
+  color: #fff;
 }
 
 select {
@@ -24,5 +26,5 @@ select {
 
 ::placeholder,
 option .myDisabled {
-  color: #9c8c7c;
+  color: #888;
 }

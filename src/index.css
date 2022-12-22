@@ -10,26 +10,26 @@
 }
 
 :root {
-  --primary: #1b3b80;
-  --primary-bg: #1c1c1c;
-  --secondary: #e0e0e0;
-  --bg-color: #c8c8d0;
-  --bg-border: #c8c3c3d1;
-  --text: black;
-  --black: #191919;
-  --gold: #fed600;
-  --gold-200: #fdb501;
+  --primary: #0290ff;
+  --secondary: #f5f6fa;
+  --bg-color: #fafafa;
+  --bg-border: #e8e8e8;
+  --text: #888;
+  --black: #121212;
   --blue: #1b3b80;
   --blue-100: #052465;
 }
 
 body {
-  background-color: var(--bg-border);
+  background-color: var(--bg-color);
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
+  margin:2%;
+  padding-bottom:8%;
 }
 
 .active {
   background-color: var(--primary);
-  color: white;
+  color: var(--secondary);
   padding: 1em;
   border-radius: 10px;
 }
@@ -41,23 +41,25 @@ h1 {
 }
 
 button {
-  background-color: var(--blue-100);
-  color: var(--bg-border);
+  background-color: var(--primary);
+  color: var(--secondary);
   text-transform: uppercase;
   font-size: 0.97em;
   width: fit-content;
   padding: 0.5em 1.7em;
   border-radius: 3px;
+  width: 35%;
 }
 
 .header h1 {
   font-size: 1.7em;
   padding: 0.5em 7%;
   font-weight: 700;
+  color: var(--primary);
 }
 
 .header span {
-  background-color: var(--blue-100);
+  background-color: var(--primary);
   color: var(--secondary);
   padding: 0.5em;
   margin-left: 0.25em;
@@ -73,16 +75,23 @@ button {
   justify-content: space-between;
   background: var(--secondary);
   padding: 1em 7%;
-  box-shadow: var(--blue-100) 4px 4px, var(--blue) 9px 7px;
+  border: 3px solid var(--bg-border);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .container {
   margin: 2em 2%;
-  background-color: #e0e0e0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid var(--bg-border);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .wrapper {
   width: 100%;
+  border-radius: 20px;
+  gap: 2em;
 }
 
 .category-wrapper {
@@ -96,15 +105,20 @@ button {
 }
 
 hr {
-  color: var(--bg-border);
-  background-color: var(--bg-border);
-  height: 2px;
+  margin: 2em 8%;
+  background-color: var(--bg-color);
+  border-radius: 20px;
+  border: 1px solid var(--bg-border);
+  width: 80%;
+}
+
+.disabled {
+  color: var(--text);
 }
 
 @media (min-width: 728px) {
   .container {
     margin: 2% 7%;
-    background-color: #e0e0e0;
   }
 
   .header nav {

@@ -13,7 +13,7 @@ const DisplayBook = ({book,progress}) => {
 return (
   <div className={style.book}>  
     <div className={style.aboutBook}>
-      <p>{book.category}</p>
+      <p className="disabled">{book.category}</p>
       <h2>{book.title} </h2>
       <a>{book.author}</a>
       <div className={style.bookAction}>

@@ -5,7 +5,6 @@
 
 .book p {
   font-size: 0.97rem;
-  color: var(--bgColor);
 }
 
 .book a {
@@ -63,15 +62,6 @@
   font-weight: 400;
 }
 
-.currentChapter button {
-  background-color: var(--blue-100);
-  color: var(--secondary);
-  text-transform: uppercase;
-  font-size: 0.77em;
-  padding: 0.37em;
-  width: 50%;
-  border-radius: 3px;
-}
 
 @media (min-width: 720px) {
   .book {
@@ -90,11 +80,16 @@
     gap: 1em;
   }
 
+  .bookAction button,
   .book a {
     font-size: 0.97rem;
     color: var(--blue);
     text-decoration: none;
+    padding: 0;
     padding-right: 1rem;
+    background-color: #fff;
+    text-transform: capitalize;
+    
   }
 
   .progress {
