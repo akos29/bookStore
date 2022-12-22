@@ -1,17 +1,17 @@
 .addContainer {
-  margin: 2em 7%;
+  margin: 2% 7%;
 }
 
 form {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 input {
-  flex: 2.5;
-  padding: 0.5em 1em;
-  font-size: 1em;
-  margin-right: 2em;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.27rem;
+  width: 95%;
 }
 
 select {

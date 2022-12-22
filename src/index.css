@@ -80,6 +80,20 @@ button {
   background-color: #e0e0e0;
 }
 
+.wrapper {
+  width: 100%;
+}
+
+.category-wrapper {
+  padding: 7%;
+  margin: 5em;
+}
+
+.category-wrapper h1,
+.category-wrapper h2 {
+  margin-bottom: 1em;
+}
+
 hr {
   color: var(--bg-border);
   background-color: var(--bg-border);
