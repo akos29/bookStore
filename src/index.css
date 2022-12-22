@@ -45,7 +45,6 @@ button {
   color: var(--secondary);
   text-transform: uppercase;
   font-size: 0.97em;
-  width: fit-content;
   padding: 0.5em 1.7em;
   border-radius: 3px;
   width: 35%;
