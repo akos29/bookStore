@@ -1,4 +1,3 @@
-// import { configureStore } from '@reduxjs/toolkit';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import booksReducer from './books/books';

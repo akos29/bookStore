@@ -5,12 +5,14 @@
 
 .book p {
   font-size: 0.97rem;
+  text-transform: capitalize;
 }
 
 .book a {
   font-size: 0.97rem;
   color: var(--blue);
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .bookAction {
@@ -21,6 +23,17 @@
   align-items: flex-start;
   padding: 0.8em 0;
   width: 80%;
+}
+
+.bookAction button,
+.book a {
+  font-size: 0.97rem;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 0;
+  padding-right: 1rem;
+  background-color: #fff;
+  text-transform: capitalize;
 }
 
 .progress {
@@ -77,17 +90,6 @@
 
   .bookAction {
     gap: 1em;
-  }
-
-  .bookAction button,
-  .book a {
-    font-size: 0.97rem;
-    color: var(--blue);
-    text-decoration: none;
-    padding: 0;
-    padding-right: 1rem;
-    background-color: #fff;
-    text-transform: capitalize;
   }
 
   .progress {
