@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { activeStatus } from '../redux/navlink/navlink';
@@ -6,9 +6,14 @@ import { activeStatus } from '../redux/navlink/navlink';
 function Navbar() {
   const dispatch = useDispatch();
   const activeS = useSelector((state) => state.activeStatus);
+  const [active, setActive] = useState('Home');
   const handleChange = (active) => {
-    dispatch(activeStatus(active));
+    setActive(active);
   };
+
+  useEffect(() => {
+    dispatch(activeStatus(active));
+  }, [active, dispatch]);
 
   return (
     <div>

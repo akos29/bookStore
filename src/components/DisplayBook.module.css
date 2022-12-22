@@ -5,13 +5,14 @@
 
 .book p {
   font-size: 0.97rem;
-  color: var(--bgColor);
+  text-transform: capitalize;
 }
 
 .book a {
   font-size: 0.97rem;
   color: var(--blue);
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .bookAction {
@@ -22,6 +23,17 @@
   align-items: flex-start;
   padding: 0.8em 0;
   width: 80%;
+}
+
+.bookAction button,
+.book a {
+  font-size: 0.97rem;
+  color: var(--blue);
+  text-decoration: none;
+  padding: 0;
+  padding-right: 1rem;
+  background-color: #fff;
+  text-transform: capitalize;
 }
 
 .progress {
@@ -63,16 +75,6 @@
   font-weight: 400;
 }
 
-.currentChapter button {
-  background-color: var(--blue-100);
-  color: var(--secondary);
-  text-transform: uppercase;
-  font-size: 0.77em;
-  padding: 0.37em;
-  width: 50%;
-  border-radius: 3px;
-}
-
 @media (min-width: 720px) {
   .book {
     flex-direction: row;
@@ -88,13 +90,6 @@
 
   .bookAction {
     gap: 1em;
-  }
-
-  .book a {
-    font-size: 0.97rem;
-    color: var(--blue);
-    text-decoration: none;
-    padding-right: 1rem;
   }
 
   .progress {

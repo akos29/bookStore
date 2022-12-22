@@ -1,4 +1,3 @@
-// import { configureStore } from '@reduxjs/toolkit';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import booksReducer from './books/books';
@@ -9,6 +8,7 @@ const rootReducer = combineReducers({
   books: booksReducer,
   categories: categoriesReducer,
   activeLink: activeLinkReducer,
+
 });
 
 const store = createStore(rootReducer, applyMiddleware(thunk));

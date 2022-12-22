@@ -4,17 +4,6 @@ const CREATE = 'bookstore/books/CREATE';
 const REMOVE = 'bookstore/books/REMOVE';
 const FETCH_BOOKS = 'bookstore/books/FETCH_BOOKS';
 
-// const initialState = [
-//   {
-//     id: uuidv4(),
-//     title: 'Capital in the Twenty-First Century',
-//     author: 'Suzanne Collins',
-//     category: 'Action',
-//     currentChapter: 'Chapter 17',
-//     progress: 0,
-//   },
-// ];
-
 export default function reducer(state = [], action = {}) {
   switch (action.type) {
     case CREATE:
