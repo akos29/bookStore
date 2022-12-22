@@ -13,7 +13,7 @@ export default function BooksList() {
     <div>
       {
         books.map((book) => (
-          <div key={book.id} className="container">
+          <div key={book.item_id} className="container">
             <DisplayBook book={book} />
           </div>
         ))

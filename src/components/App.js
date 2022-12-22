@@ -6,8 +6,8 @@ import Books from './Books';
 function App() {
   return (
     <>
-      <Header />
-      <div>
+      <div className="wrapper">
+        <Header />
         <Routes>
           <Route
             exact
