@@ -46,7 +46,7 @@ button {
 }
 
 .header h1 {
-  font-size: 1.7em;
+  font-size: 1.25em;
   padding: 0.5em;
   font-weight: 700;
   color: var(--primary);
@@ -67,9 +67,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--secondary);
-  padding: 1em 7%;
-  border: 3px solid var(--bg-border);
+  background: #fff;
+  padding: 0.5em 7%;
+  border: 1px solid var(--bg-border);
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
@@ -110,10 +110,12 @@ hr {
 
 .disabled {
   color: var(--text);
+  opacity: 0.5;
 }
 
 .btn {
-  margin: 0.11rem;
+  margin-top: 0.97rem;
+  font-size: 0.97rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
@@ -234,8 +236,9 @@ hr {
 
   .header nav ul li a {
     color: var(--text);
+    opacity: 0.5;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 0.65em;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -248,13 +251,14 @@ hr {
   }
 
   .icon {
-    border: 3px solid var(--bg-border);
-    padding: 1rem;
+    border: 1px solid var(--bg-border);
+    padding: 0.5rem;
     border-radius: 50rem;
   }
 
   .header ul li a.active {
-    color: var(--black);
+    color: var(--text);
+    opacity: 1;
   }
 
   .book-update {

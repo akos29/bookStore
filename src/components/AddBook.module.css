@@ -34,6 +34,7 @@ select {
 ::placeholder,
 option .myDisabled {
   color: #888;
+  opacity: 0.5;
 }
 
 @media (min-width: 720px) {
