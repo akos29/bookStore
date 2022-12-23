@@ -17,25 +17,37 @@ return (
       <h2>{book.title} </h2>
       <a>{book.author}</a>
       <div className={style.bookAction}>
-        <a href="#">Comments</a> |
+        <button href="#">Comments</button> |
         <button type='button' onClick={() => delBook(book.item_id)}>Remove</button>|
-        <a href="#">Edit</a>
+        <button href="#">Edit</button>
       </div>
     </div>
 
-    <div className={style.progress}>
-      <progress value={progress} max="100"></progress>
-      <div className={style.progressDetail}>
-        <h4> {progress}%</h4>
-        <span>Completed</span>
+    <div className="book-progress">
+        <div className="circle-wrap">
+          <div className="circle">
+            <div className="mask half">
+              <div className="fill">
+                <div className="inside-circle" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="percentage">50%</p>
+          <p className="completed">Completed</p>
+        </div>
       </div>
-    </div>
-
-    <div className={style.currentChapter}>
+      <div className="book-update">
+        <p className="current-chap">CURRENT CHAPTER</p>
+        <p className="chap-num">Chapter 17</p>
+        <button className="btn" type="button">UPDATE PROGRESS</button>
+      </div>
+    {/* <div className={style.currentChapter}>
       <p>Current Chapter</p>
       <h4>{book.currentChapter}</h4>
       <button type="button">Update Progress</button>
-    </div>
+    </div> */}
   </div>
   )
 

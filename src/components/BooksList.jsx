@@ -8,15 +8,14 @@ export default function BooksList() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchBooks());
-  }, []);
+  }, [dispatch]);
   const books = useSelector((state) => state.books);
   return (
     <div>
       {
         books.map((book) => (
-          // eslint-disable-next-line react/no-unknown-property
           <div key={book.item_id} className="container">
-            <DisplayBook book={book} />
+            <DisplayBook book={book} progress={Math.floor(Math.random() * 100)} />
           </div>
         ))
     }

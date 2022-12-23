@@ -1,6 +1,7 @@
 .book {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .book p {
@@ -19,7 +20,7 @@
   color: var(--bg-border);
   font-weight: 300;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 0.8em 0;
   width: 80%;
@@ -28,12 +29,13 @@
 .bookAction button,
 .book a {
   font-size: 0.97rem;
-  color: var(--blue);
+  color: #0290ff;
   text-decoration: none;
   padding: 0;
-  padding-right: 1rem;
+  font-weight: 300;
   background-color: #fff;
   text-transform: capitalize;
+  margin: 0;
 }
 
 .progress {
@@ -89,7 +91,7 @@
   }
 
   .bookAction {
-    gap: 1em;
+    gap: 0.438rem;
   }
 
   .progress {
