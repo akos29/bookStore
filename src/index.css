@@ -43,6 +43,7 @@ button {
   font-size: 0.97em;
   padding: 0.5em 1.7em;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .header h1 {
@@ -114,7 +115,7 @@ hr {
 }
 
 .btn {
-  margin-top: 0.97rem;
+  /* margin-top: 0.97rem; */
   font-size: 0.97rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
@@ -202,6 +203,7 @@ hr {
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: -0.4px;
+  margin-bottom: .438rem;
 }
 
 .book-update {
@@ -210,9 +212,9 @@ hr {
 }
 
 @media (min-width: 728px) {
-  button {
+  /* button {
     width: 100%;
-  }
+  } */
 
   .container {
     margin: 2% 7%;

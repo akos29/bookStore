@@ -17,9 +17,9 @@ return (
       <h2>{book.title} </h2>
       <a>{book.author}</a>
       <div className={style.bookAction}>
-        <a href="#">Comments</a> |
+        <button href="#">Comments</button> |
         <button type='button' onClick={() => delBook(book.item_id)}>Remove</button>|
-        <a href="#">Edit</a>
+        <button href="#">Edit</button>
       </div>
     </div>
 
