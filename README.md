@@ -74,7 +74,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://akos29.github.io/bookStore/)
+- [Live Demo Link](https://flop-bookstore.netlify.app/)
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
